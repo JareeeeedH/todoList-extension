@@ -1,0 +1,99 @@
+*{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+html,body {
+  background-color: darkslategrey;
+  width: 400px;
+  height: 300px;
+}
+
+/* .wrapper{
+  height: 100%;
+  overflow: auto;
+} */
+
+.title{
+  padding: 0.5rem;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+}
+.list-wrapper{
+  height: 100%;
+}
+
+.each-todo{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  border-bottom: 1px solid rgb(109, 109, 109);
+}
+
+.each-todo:hover{
+
+  background:rgb(27, 46, 46);
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+}
+
+.check{
+  width: 5%;
+}
+.todo-item{
+  width: 80%;
+  font-size: 18px;
+  color: white;
+  padding: 0.25rem 0.5rem ;
+}
+
+/* .icon-edit,.icon-remove{
+  width: 5%;
+} */
+
+
+.icon-edit{
+  color: yellow;
+  font-size: 15px;
+  cursor: pointer;
+}
+.icon-remove{
+  margin-left: 15px;
+  color: red;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.finish{
+  text-decoration: line-through;
+  color: rgb(122, 121, 121);
+}
+
+.editInput{
+  width: 70%;
+  height: 100%;
+  padding: 5px;
+  margin-right: auto;
+
+}
+.edit-btn{
+  width: 10%;
+  height: 100%;
+  border: 1px solid grey;
+  background-color: transparent;
+  margin: 0 5px;
+  padding:2px;
+  color: white;
+  cursor: pointer;
+}
